@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+.ex-cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 100px;
+  margin-top: 2rem;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+.ex-cards .image {
+  display: flex;
+  align-items: center;
+}
+.ex-cards:hover {
+  background-color: #5f8cff1e;
+  border: 1px solid #5f8cff;
+}
+.name {
+  width: 12rem;
+}
+.price {
+  width: 5rem;
+}
+.rank {
+  width: 5rem;
+}
+.cryptos {
+  margin-top: 0px;
+}
+.title {
+  margin: 0 100px;
+  margin-top: 100px;
+  color: grey;
+  padding: 0 20px;
+}
+
+.btns button {
+  height: 2rem;
+  background-color: #5f8cff;
+  border: none;
+  width: 5rem;
+  border-radius: 10px;
+  /* margin-top: 60px; */
+  cursor: pointer;
+  font-weight: 700;
+}
+.btns button:hover {
+  opacity: 0.8;
+}
+.btns {
+  margin: 0 100px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 0 20px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .image img {
+    height: 50px;
+  }
+  .name {
+    margin-left: 10px;
+    font-size: 15px;
+    width: 10rem;
+  }
+  .price {
+    font-size: 15px;
+    width: 10rem;
+  }
+  .rank {
+    font-size: 15px;
+  }
+  .ex-cards {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+    margin-top: 20px;
+    padding: 10px 10px;
+  }
+  .title {
+    margin: 0;
+    font-size: 15px;
+    margin-top: 100px;
+  }
+  .btns button {
+    height: 2rem;
+    width: 50%;
+  }
+  .btns {
+    margin: 0 10px;
+    margin-top: 20px;
+    gap: 20px;
+    padding: 0 10px;
+  }
+}

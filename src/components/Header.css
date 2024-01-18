@@ -1,0 +1,52 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(22, 20, 20);
+    position: fixed;
+    width: 100vw;
+    top: 0%;
+    padding: 10px 0;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+
+}
+.navbar ul li.active a{
+    color: #5f8cff;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .logo h2{
+        font-size: 20px;
+    }  
+    .navbar{
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0;
+        padding: 0;
+        height: 4rem;
+    }
+    .navbar ul li a{
+        margin-left: 10px;
+        /* padding: 0; */
+        font-size: 15px;
+    }
+    
+
+}

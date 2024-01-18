@@ -1,0 +1,24 @@
+.chartBtn button {
+  height: 2rem;
+  border: none;
+  width: 7rem;
+  border-radius: 10px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+.chartBtn {
+  display: flex;
+  gap: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .chartBtn button {
+        width: 7rem;
+      }
+      .chartBtn {
+        display: flex;
+        gap: 10px;
+      }
+      
+}
